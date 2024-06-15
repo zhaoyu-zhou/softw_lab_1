@@ -1,5 +1,20 @@
 package org.example;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.PriorityQueue;
+import java.util.Random;
+import java.util.Scanner;
+import java.util.Set;
 import org.graphstream.graph.Edge;
 import org.graphstream.graph.Graph;
 import org.graphstream.graph.Node;
@@ -7,13 +22,10 @@ import org.graphstream.graph.implementations.SingleGraph;
 import org.graphstream.ui.layout.springbox.implementations.SpringBox;
 import org.graphstream.ui.view.Viewer;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.*;
 
 public class TextProcessor {
+
+    private static String text;
 
     public static void main(String[] args) {
         String filePath = "..//double_01//text.txt";
@@ -87,6 +99,7 @@ public class TextProcessor {
     }
 
     public static Map<String, Map<String, Integer>> buildDirectedGraph(String text) {
+        TextProcessor.text = text;
         String[] words = text.split("\\s+");
         Map<String, Map<String, Integer>> graph = new HashMap<>();
 
@@ -139,26 +152,27 @@ public class TextProcessor {
     }
 
     public static void queryBridgeWords(Scanner scanner, Graph graph) {
-        System.out.print("请输入第一个单词：");
+        System.out.print("请输入第一个单词：\n");
         String word1 = scanner.next().toLowerCase();
-        System.out.print("请输入第二个单词： ");
+        System.out.print("请输入第二个单词：\n");
         String word2 = scanner.next().toLowerCase();
 
         Node startNode = graph.getNode(word1);
         Node targetNode = graph.getNode(word2);
 
         if (startNode == null || targetNode == null) {
-            System.out.println("起始单词或目标单词不在图中。");
+            System.out.println("起始单词或目标单词不在图中。\n");
             return;
         }
 
         List<String> bridgeWords = findBridgeWords(graph, word1, word2);
         if (bridgeWords.isEmpty()) {
-            System.out.println("没有找到桥接词。");
+            System.out.println("没有找到桥接词。\n");
         } else {
-            System.out.println("桥接词： " + String.join(", ", bridgeWords));
+            System.out.println("桥接词：" + String.join(", ", bridgeWords) + "\n");
         }
     }
+
 
     public static void generateNewText(Scanner scanner, Graph graph) {
         System.out.print("请输入新文本：");
@@ -168,6 +182,28 @@ public class TextProcessor {
         String result = generateNewText(graph, newText);
         System.out.println("生成的新文本：");
         System.out.println(result);
+    }
+
+    public static String generateNewText(Graph graph, String newText) {
+        String[] words = newText.split("\\s+");
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < words.length - 1; i++) {
+            result.append(words[i]).append(" ");
+
+            String wordA = words[i];
+            String wordB = words[i + 1];
+
+            List<String> bridgeWords = findBridgeWords(graph, wordA, wordB);
+            if (!bridgeWords.isEmpty()) {
+                Random random = new Random();
+                String bridgeWord = bridgeWords.get(random.nextInt(bridgeWords.size()));
+                result.append(bridgeWord).append(" ");
+            }
+        }
+        result.append(words[words.length - 1]);
+
+        return result.toString();
     }
 
     public static void calcShortestPath(Scanner scanner, Graph graph) {
@@ -222,27 +258,7 @@ public class TextProcessor {
         return bridgeWords;
     }
 
-    public static String generateNewText(Graph graph, String newText) {
-        String[] words = newText.split("\\s+");
-        StringBuilder result = new StringBuilder();
 
-        for (int i = 0; i < words.length - 1; i++) {
-            result.append(words[i]).append(" ");
-
-            String wordA = words[i];
-            String wordB = words[i + 1];
-
-            List<String> bridgeWords = findBridgeWords(graph, wordA, wordB);
-            if (!bridgeWords.isEmpty()) {
-                Random random = new Random();
-                String bridgeWord = bridgeWords.get(random.nextInt(bridgeWords.size()));
-                result.append(bridgeWord).append(" ");
-            }
-        }
-        result.append(words[words.length - 1]);
-
-        return result.toString();
-    }
 
     public static List<Node> dijkstraShortestPath(Graph graph, Node startNode, Node targetNode) {
         Map<Node, Integer> distances = new HashMap<>();
@@ -309,7 +325,7 @@ public class TextProcessor {
 
     public static void randomWalk(Graph graph) {
         List<Node> walkPath = new ArrayList<>();
-        Set<Edge> visitedEdges = new HashSet<>();
+        final Set<Edge> visitedEdges = new HashSet<>();
         Random random = new Random();
 
         List<Node> nodes = new ArrayList<>();
