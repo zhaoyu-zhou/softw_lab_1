@@ -1,1 +1,0 @@
-# softw_lab_1
