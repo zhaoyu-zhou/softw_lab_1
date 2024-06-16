@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79cb69aa-2892-47c0-b08a-45850a483dd2" name="更改" comment="提交测试">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TextProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TextProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/org/example/TextProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/org/example/TextProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/lab01" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="qic" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zhaoyu-zhou&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="7d79197b-2620-4b58-957c-4b07384fc192" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:zhaoyu-zhou/LAB01.git&quot;,
+    &quot;accountId&quot;: &quot;7d79197b-2620-4b58-957c-4b07384fc192&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/TextProcessor.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2h5yg7Zx0io4yL23L7owT4Wdbe4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.TextProcessorTest (1).executor": "Run",
+    "JUnit.TextProcessorTest.executor": "Run",
+    "JUnit.TextProcessorTest.testCalcShortestPath_BothWordsExistWithPath.executor": "Run",
+    "JUnit.TextProcessorTest.testCalcShortestPath_BothWordsExistWithoutPath.executor": "Run",
+    "JUnit.TextProcessorTest.testCalcShortestPath_BothWordsNotExist.executor": "Run",
+    "JUnit.TextProcessorTest.testCalcShortestPath_StartWordNotExist.executor": "Run",
+    "JUnit.TextProcessorTest.testCalcShortestPath_TargetWordNotExist.executor": "Run",
+    "JUnit.TextProcessorTest.testQueryBridgeWords_BothWordsExist.executor": "Run",
+    "JUnit.TextProcessorTest.testQueryBridgeWords_BothWordsExistWithBridgeWords.executor": "Run",
+    "JUnit.TextProcessorTest.testQueryBridgeWords_BothWordsExistWithoutBridgeWords.executor": "Run",
+    "JUnit.TextProcessorTest.testQueryBridgeWords_BothWordsNotExist.executor": "Run",
+    "JUnit.TextProcessorTest.testQueryBridgeWords_NoBridgeWords.executor": "Run",
+    "JUnit.TextProcessorTest.testQueryBridgeWords_Word1ExistsWord2NotExist.executor": "Run",
+    "JUnit.TextProcessorTest.testQueryBridgeWords_Word1NotExist.executor": "Run",
+    "JUnit.TextProcessorTest.testQueryBridgeWords_Word1NotExistWord2Exists.executor": "Run",
+    "JUnit.TextProcessorTest.testQueryBridgeWords_Word2NotExist (1).executor": "Run",
+    "JUnit.TextProcessorTest.testQueryBridgeWords_Word2NotExist.executor": "Run",
+    "JUnit.double_01中的所有.executor": "Coverage",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "git-widget-placeholder": "Lab3w",
+    "jdk.selected.JAVA_MODULE": "openjdk-22",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "E:/MyCode/softwarelab/lab_01/double_01/src/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/MyCode/softwarelab/lab_01/double_01/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.39005235",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.TextProcessor.executor": "Run"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
+  }
+}]]></component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyCode\softwarelab\lab_01\double_01" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.example" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TextProcessorTest.testCalcShortestPath_StartWordNotExist">
+    <configuration name="TextProcessorTest.testCalcShortestPath_BothWordsExistWithPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="double_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TextProcessorTest" />
+      <option name="METHOD_NAME" value="testCalcShortestPath_BothWordsExistWithPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextProcessorTest.testCalcShortestPath_BothWordsExistWithoutPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="double_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TextProcessorTest" />
+      <option name="METHOD_NAME" value="testCalcShortestPath_BothWordsExistWithoutPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextProcessorTest.testCalcShortestPath_BothWordsNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="double_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TextProcessorTest" />
+      <option name="METHOD_NAME" value="testCalcShortestPath_BothWordsNotExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextProcessorTest.testCalcShortestPath_StartWordNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="double_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TextProcessorTest" />
+      <option name="METHOD_NAME" value="testCalcShortestPath_StartWordNotExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextProcessorTest.testCalcShortestPath_TargetWordNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="double_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TextProcessorTest" />
+      <option name="METHOD_NAME" value="testCalcShortestPath_TargetWordNotExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TextProcessorTest.testCalcShortestPath_StartWordNotExist" />
+        <item itemvalue="JUnit.TextProcessorTest.testCalcShortestPath_BothWordsExistWithoutPath" />
+        <item itemvalue="JUnit.TextProcessorTest.testCalcShortestPath_BothWordsExistWithPath" />
+        <item itemvalue="JUnit.TextProcessorTest.testCalcShortestPath_BothWordsNotExist" />
+        <item itemvalue="JUnit.TextProcessorTest.testCalcShortestPath_TargetWordNotExist" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="79cb69aa-2892-47c0-b08a-45850a483dd2" name="更改" comment="" />
+      <created>1716898340745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716898340745</updated>
+      <workItem from="1716898341742" duration="714000" />
+      <workItem from="1716899401124" duration="2317000" />
+      <workItem from="1718350352729" duration="264000" />
+      <workItem from="1718350629404" duration="1252000" />
+      <workItem from="1718351903858" duration="1937000" />
+      <workItem from="1718359614393" duration="1269000" />
+      <workItem from="1718360905103" duration="254000" />
+      <workItem from="1718361169505" duration="2748000" />
+      <workItem from="1718363961014" duration="90000" />
+      <workItem from="1718364059540" duration="10872000" />
+      <workItem from="1718435362168" duration="1883000" />
+      <workItem from="1718437486934" duration="1637000" />
+      <workItem from="1718444849778" duration="344000" />
+      <workItem from="1718540461485" duration="5117000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交测试">
+      <option name="closed" value="true" />
+      <created>1716899891503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716899891503</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交测试">
+      <option name="closed" value="true" />
+      <created>1716900522390</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716900522390</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交测试">
+      <option name="closed" value="true" />
+      <created>1716900893135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716900893135</updated>
+    </task>
+    <task id="LOCAL-00004" summary="提交测试">
+      <option name="closed" value="true" />
+      <created>1716901157474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716901157474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sadsada" />
+    <MESSAGE value="提交测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交测试" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/org/example/TextProcessorTest.java</url>
+          <line>102</line>
+          <properties class="org.example.TextProcessorTest" method="testQueryBridgeWords_BothWordsNotExist">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/org/example/TextProcessorTest.java</url>
+          <line>142</line>
+          <properties class="org.example.TextProcessorTest" method="testCalcShortestPath_BothWordsExistWithPath">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/double_01$TextProcessorTest_testCalcShortestPath_BothWordsExistWithPath.ic" NAME="TextProcessorTest.testCalcShortestPath_BothWordsExistWithPath 覆盖结果" MODIFIED="1718543072592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/double_01$TextProcessor.ic" NAME="TextProcessor 覆盖结果" MODIFIED="1718352873511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/double_01$double_01.ic" NAME="double_01中的所有 覆盖结果" MODIFIED="1718352843904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>
